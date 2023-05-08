@@ -1,0 +1,16 @@
+.home{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/src/assets/images/cup_laptop.jpg');
+}
+
+.about{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/src/assets/images/laptop2.jpg');
+}
+
+.portfolio{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/src/assets/images/portfolio.jpg');
+}
+
+.skills{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/src/assets/images/laptop3.jpg');
+}
+
