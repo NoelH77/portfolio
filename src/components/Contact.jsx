@@ -44,7 +44,7 @@ const Contact = () => {
           <p>CV</p>
         </>
       ),
-      href: "/Beccar.pdf",
+      href: "https://drive.google.com/file/d/1NgPku1FpyItkY6HoO6plz2tADuo2NPy0/view?usp=share_link",
       style: "rounded-br-md",
       download: true,
     },
