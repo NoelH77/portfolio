@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { HiOutlineMail } from "react-icons/hi"
-import { BsFillPersonLinesFill } from "react-icons/bs"
+import { BiBookBookmark } from "react-icons/bi"
 
 const SocialLinks = () => {
 
@@ -29,7 +29,7 @@ const SocialLinks = () => {
             id: 3,
             child: (
                 <>
-                Mail <HiOutlineMail size={30} />
+                Email <HiOutlineMail size={30} />
                 </>
             ),
             href: 'mailto:noelhorta88@outlook.com',
@@ -38,7 +38,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                Resume <BsFillPersonLinesFill size={30} />
+                CV <BiBookBookmark size={30} />
                 </>
             ),
             href: "https://drive.google.com/file/d/1NgPku1FpyItkY6HoO6plz2tADuo2NPy0/view?usp=share_link",

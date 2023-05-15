@@ -15,42 +15,42 @@ const Skills = () => {
             src: html,
             title: 'HTML',
             style: 'shadow-orange-500',
-            color: 'hover:text-orange-500',
+            color: 'hover:bg-orange-800',
         },
         {
             id: 2,
             src: css,
             title: 'CSS',
             style: 'shadow-blue-500',
-            color: 'hover:text-blue-500',
+            color: 'hover:bg-blue-700',
         },
         {
             id: 3,
             src: js,
             title: 'Javascript',
             style: 'shadow-yellow-500',
-            color: 'hover:text-yellow-500',
+            color: 'hover:bg-yellow-600',
         },
         {
             id: 4,
             src: react,
             title: 'React',
             style: 'shadow-sky-300',
-            color: 'hover:text-sky-300'
+            color: 'hover:bg-sky-700'
         },
         {
             id: 5,
             src: github,
             title: 'GitHub',
             style: 'shadow-gray-400',
-            color: 'hover:text-gray-400',
+            color: 'hover:bg-gray-500',
         },
         {
             id: 6,
             src: tailwind,
             title: 'Tailwind',
-            style: 'shadow-sky-400',
-            color: 'hover:text-cyan-300',
+            style: 'shadow-sky-400 ',
+            color: 'hover:bg-cyan-700',
         },
     ]
 
@@ -71,8 +71,8 @@ const Skills = () => {
 
                 {
                     techs.map(({ id, src, title, style, color}) => (
-                        <div key={id} className={`shadow-lg place-content-center grid h-auto hover:scale-105 duration-500
-                        py-2 rounded-lg ${style} ${color}`}>
+                        <div key={id} className={`shadow-2xl place-content-center grid h-auto hover:scale-105 duration-500
+                        py-2 ${style} ${color}`}>
                             <img src={src} alt="" className='w-20 h-20 object-cover mx-auto'/>
                             <p className={'mt-4'}>{title}</p>
                         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BiBookBookmark } from "react-icons/bi"
 
 const Contact = () => {
   const links = [
@@ -40,7 +40,7 @@ const Contact = () => {
       id: 4,
       child: (
         <>
-          <BsFillPersonLinesFill size={30} />
+          <BiBookBookmark size={30} />
           <p>CV</p>
         </>
       ),
@@ -69,30 +69,30 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none hover:border-sky-300 hover:bg-gray-900/50"
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none hover:border-sky-300 hover:bg-gray-900/50"
             />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none hover:border-sky-300 hover:bg-gray-900/50"
             ></textarea>
 
             <button
               className="text-white bg-cyan-500 px-6 
-            py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+            py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 hover:border-sky-300"
             >
                 Contact me
             </button>
           </form>
         </div>
-        <ul className="lg:hidden flex flex-wrap justify-center gap-10 ">
+        <ul className="lg:hidden flex flex-wrap justify-center gap-10">
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
@@ -109,6 +109,7 @@ const Contact = () => {
           </li>
         ))}
       </ul>
+      <footer className="py-5 grid place-content-center">&copy; Copyright 2023. From scratch. All rights reserved</footer>
       </div>
     </div>
   );
