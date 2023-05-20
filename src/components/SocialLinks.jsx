@@ -41,7 +41,7 @@ const SocialLinks = () => {
                 CV <BiBookBookmark size={30} />
                 </>
             ),
-            href: "https://drive.google.com/file/d/1NgPku1FpyItkY6HoO6plz2tADuo2NPy0/view?usp=share_link",
+            href: "https://drive.google.com/file/d/1fe7iNWaFl1u787kQM3yHA9aSjc0epyAP/view?usp=share_link",
             style: "rounded-br-md",
             download: true,
         }
