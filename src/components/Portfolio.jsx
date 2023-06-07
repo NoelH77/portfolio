@@ -19,7 +19,7 @@ const Portfolio = () => {
       src: store,
       title: "store",
       link: "https://projectacademlostore.netlify.app",
-      link2: "https://github.com/NoelH77/store.git",
+      link2: "https://github.com/NoelH77/projectcart.git",
       child: (
         <>
           <li className="w-8 h-8 mt-1">
