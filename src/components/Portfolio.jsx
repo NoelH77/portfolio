@@ -18,7 +18,7 @@ const Portfolio = () => {
       id: 1,
       src: store,
       title: "store",
-      link: "https://storenoel.netlify.app/",
+      link: "https://projectacademlostore.netlify.app",
       link2: "https://github.com/NoelH77/store.git",
       child: (
         <>
